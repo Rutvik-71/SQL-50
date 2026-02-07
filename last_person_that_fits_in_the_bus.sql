@@ -7,4 +7,4 @@ FROM (
 ) as t
 WHERE total_weight <= 1000
 ORDER BY total_weight DESC
-LIMIT 1;
+LIMIT 1
